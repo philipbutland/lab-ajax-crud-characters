@@ -4,7 +4,7 @@ const axios = require('axios')
 class ApiService {
     constructor() {
       this.api = axios.create({
-        baseURL: 'http://localhost:8000'
+        baseURL: 'https://ih-crud-api.herokuapp.com'
       });
     }
    

@@ -1,0 +1,26 @@
+{
+  "name": "lab-ajax-crud-characters",
+  "version": "1.0.0",
+  "description": "![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipbutland/lab-ajax-crud-characters.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philipbutland/lab-ajax-crud-characters/issues"
+  },
+  "homepage": "https://github.com/philipbutland/lab-ajax-crud-characters#readme",
+  "dependencies": {
+    "axios": "^1.2.3"
+  },
+  "devDependencies": {},
+  "keywords": []
+}

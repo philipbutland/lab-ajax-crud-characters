@@ -3,9 +3,13 @@ class APIHandler {
     this.BASE_URL = baseUrl;
   }
 
-  getFullList () {
-
-  }
+  getFullList() {
+    return axios
+      .get(this.BASE_URL + '/characters')
+      .then(result => console.log(result.data))
+      .catch(e => console.log(`Something went wrong getting all characters ${e}`));
+    }
+  
 
   getOneRegister () {
 
